@@ -31,6 +31,7 @@
         testUser = prompt("Введите число", "");
         console.log(testUser);
         console.log(testUser/2);
+        console.log(testUser/3);
 
     </script>
 
