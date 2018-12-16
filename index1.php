@@ -39,9 +39,6 @@
         }
         console.log(i);
         
-         
-        //(i == 2) ? continue : console.log(i);
-       // (i == 6) ? continue : true;
     }
         
 
