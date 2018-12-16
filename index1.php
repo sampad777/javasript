@@ -16,33 +16,34 @@
     
 
     <script>
-    var test01 = 777;
-        if(1){
-            console.log("777");
-        } else{
-            console.log("не 777");
+    var test01 = 55;
+
+    while(test01 < 60){
+        console.log(test01++);
+    }
+
+
+    do {
+        console.log("do: "+test01++);
+    } 
+    while(test01 < 70);
+
+    for(let i=0; i<8; i++){
+        
+        if(i == 2){
+            continue;
         }
 
-        let test02;
-
-        test02= (test01 == 778) ? 333 : 444;
-
-        console.log(test02);
-
-        switch (test01) {
-            case test01 < 777:
-                console.log('Неверно!');
-                break;
-            case test01 > 777:
-                console.log('Неверно!');
-                break;
-            case 777:
-                console.log('Верно');
-                break;
-            default:
-                console.log('Что-то пошло не так');
-                break;
+        if(i == 6){
+            break;
         }
+        console.log(i);
+        
+         
+        //(i == 2) ? continue : console.log(i);
+       // (i == 6) ? continue : true;
+    }
+        
 
     </script>
 
