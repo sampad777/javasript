@@ -11,27 +11,17 @@
 
 <body>
 
-    <div id="test">this is the labrary</div>
-    <div id="raz">a</div>
+    
 
     
 
-    <ul>
-        <li id="one">раз</li>
-        <li id="two">два</li>
-        <li id="three">три</li>
-        <li id="four">четыре</li>
-    </ul>
-
     <script>
-        'use strict'
-        var testVar = "my name is Sergey";
-
-        
-        testUser = prompt("Введите число", "");
-        console.log(testUser);
-        console.log(testUser/2);
-        console.log(testUser/3);
+    var test01 = 777;
+        if(test01 == 777){
+            console.log("777");
+        } else{
+            console.log("не 777");
+        }
 
     </script>
 
